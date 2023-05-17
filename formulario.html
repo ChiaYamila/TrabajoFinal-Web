@@ -8,7 +8,28 @@
     <link rel="stylesheet" href="Css/Estilos.css">
     
 </head>
-<body>    
+<body> 
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav_logo">
+                <h2 class="nav_title"> PARA UN BUEN CORTE</h2>
+
+            </div>
+            <UL class="nav_link nav_link--menu">
+                <li class="nav_items">
+                    <a href="Index.html" class="nav_link">Inicio</a>
+                </li>
+                <li class="nav_items">
+                    <a href="formulario.html" class="nav_link">Contacto</a>
+                </li>
+                
+                <li class="nav_items">
+                    <a href="Cortes.html" class="nav_link">Cortes</a>
+                </li>
+            </UL>
+            
+        </nav>
+    </header>   
     <section class="formulario">
         <div class="foto"> 
             <img src="barbersalon.jpg" alt="p" class="nav_close">
@@ -16,10 +37,10 @@
 
         <form action="#0" method="get">
             <label for="">Nombre</label>
-            <input type="text" name="nombre" id="">
+            <input type="text" name="nombre" id="nombre">
             <label for="">E-mail</label>
-            <input type="email" name="mail" id="">
-            <textarea name="Consulta" id="" cols="30" rows="10">Dejame un mensaje</textarea>
+            <input type="email" name="mail" id="mail">
+            <textarea name="Consulta" id="consulta" cols="30" rows="10">Dejame un mensaje</textarea>
             <input type="submit" value="ENVIAR">
         </form>
     </section>
