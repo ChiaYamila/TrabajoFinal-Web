@@ -1,0 +1,24 @@
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+  }
+  
+  .carousel-item {
+    display: none;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .carousel-item.active {
+    display: block;
+  }
+  
+  .carousel-arrow {
+    cursor: pointer;
+    font-size: 36px;
+  }
+  #carousel{
+      width: 600px;
+  }
