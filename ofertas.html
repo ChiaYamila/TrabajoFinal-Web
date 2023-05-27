@@ -37,44 +37,92 @@
         </nav>
 
         <section class="header__container container">
-            <h1 class="header__titulo">Tu barberia de confianza.</h1>
+            <h1 class="header__titulo">Encuentra Ofertas Top.</h1>
             <p class="header__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque quam consequatur
                 deleniti consectetur voluptas ad labore architecto possimus laudantium nesciunt!</p>
             <a href="#sus" class="cta">Suscribete</a>
         </section>
     </header>
 
-    <main>
-        <section class="container barbar">
-            <h2 class="subtitulo">Lorem ipsum dolor sit amet.</h2>
-            <p class="barbar__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ullam omnis eius
-                aliquid, minus incidunt!</p>
+    <section class="carrusel">
+        <div class="carrusel__top">
+            <ul class="slider">
+                <li class="show">
+                    <img
+                        src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+                </li>
+                <li>
+                    <img
+                        src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+                </li>
+                <li>
+                    <img
+                        src="https://images.unsplash.com/photo-1519500528352-2d1460418d41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+                </li>
+            </ul>
 
-            <div class="barbar__main">
-                <article class="barbar__icons">
-                    <img src="./images/shapes.svg" class="barbar__icon">
-                    <h3 class="barbar__titulo">AlgoA</h3>
-                    <p class="barbar__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
-                </article>
+            <ul class="btnimg">
+                <li>
+                    <span class="shownum"></span>
+                </li>
+                <li>
+                    <span></span>
+                </li>
+                <li>
+                    <span></span>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-                <article class="barbar__icons">
-                    <img src="./images/paint.svg" class="barbar__icon">
-                    <h3 class="barbar__titulo">AlgoB</h3>
-                    <p class="barbar__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
-                </article>
+    <section class="precios container">
+        <h2 class="subtitulo">Obten tu plan perfecto</h2>
 
-                <article class="barbar__icons">
-                    <img src="./images/code.svg" class="barbar__icon">
-                    <h3 class="barbar__titulo">AlgoC</h3>
-                    <p class="barbar__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
-                </article>
+        <div class="precios__tarjeta">
+            <div class="precios__element">
+                <p class="precios__nombre">OfertaA</p>
+                <h3 class="precios__precios">$1300/mes</h3>
+
+                <div class="precios__items">
+                    <p class="precios__txt">Corte</p>
+                    <p class="precios__txt">Corte</p>
+                    <p class="precios__txt">Corte</p>
+                </div>
+
+                <a href="#" class="precios__cta">Empieza ahora</a>
             </div>
-        </section>
-    </main>
 
+
+            <div class="precios__element precios__element--best">
+                <p class="precios__nombre">OfertaB</p>
+                <h3 class="precios__precios">$3000/mes</h3>
+
+                <div class="precios__items">
+                    <p class="precios__txt">Corte</p>
+                    <p class="precios__txt">Corte</p>
+                    <p class="precios__txt">Corte</p>
+                </div>
+
+                <a href="#" class="precios__cta">Empieza ahora</a>
+            </div>
+
+
+            <div class="precios__element">
+                <p class="precios__nombre">OfertaC</p>
+                <h3 class="precios__precios">$4000/mes</h3>
+
+                <div class="precios__items">
+                    <p class="precios__txt">Corte</p>
+                    <p class="precios__txt">Corte</p>
+                    <p class="precios__txt">Corte</p>
+                </div>
+
+                <a href="#" class="precios__cta">Empieza ahora</a>
+            </div>
+
+
+        </div>
+    </section>
     <footer class="footer">
         <section class="footer__container container">
             <form method="POST" action="#" class="footer__form">
@@ -114,6 +162,8 @@
             <h3 class="footer__copyright">Derechos reservados &copy; Yami Chia</h3>
         </section>
     </footer>
+
+    <script src="js/carrusel.js"></script>
     <script src="js/validarFormulario.js"></script>
 </body>
 
